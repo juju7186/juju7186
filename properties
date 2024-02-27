@@ -1,0 +1,4 @@
+                // You need to use the client/server setting in the 
+    // operatorproxy.properties 
+                // The following assume you implemented a class OperatorProxyProperties 
+    // to read the configuration values. 

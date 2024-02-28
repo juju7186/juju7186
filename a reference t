@@ -1,0 +1,3 @@
+// Get a reference to the XmlRpcClient 
+String url = "http://host1:8080/subscriber/xml_rpc.do"; 
+XmlRpcClientLite client = new XmlRpcClientLite(url

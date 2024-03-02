@@ -1,0 +1,4 @@
+def rule(path,content):
+    res=re.findall(path, content)
+    if res!=[]:
+        response=res[0]

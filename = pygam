@@ -1,0 +1,8 @@
+
+
+            enemies_down = pygame.sprite.spritecollide(me, enemies, False, pygame.sprite.collide_mask)
+            if enemies_down and not me.invincible:
+                me.active = False
+                for e in enemies_down:
+                    e.active = False
+ 

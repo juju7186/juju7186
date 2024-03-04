@@ -1,0 +1,5 @@
+          if me.active:
+                if switch_image:
+                    screen.blit(me.image1, me.rect)
+                else:
+                    screen.blit(me.image2, me.rect)

@@ -1,0 +1,7 @@
+        private static final long serialVersionUID = 4408440723797225328L;
+ 
+
+        public void paintComponent(Graphics g) {
+            super.paintComponent(g);
+            g.drawImage(backGround.getImage(), 0, 0, null);
+            for (int j = 0; j < walls.size(); j++) {

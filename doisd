@@ -1,0 +1,7 @@
+ 
+    public void aI(Tank tank) {
+        if (TIMEOUT) {
+            tank.setUp(false);
+            tank.setLeft(false);
+            tank.setDown(false);
+            tank.setRight(false);

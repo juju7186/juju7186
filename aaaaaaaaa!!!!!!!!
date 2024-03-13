@@ -1,0 +1,6 @@
+	    max;	/*  */
+	int row,col,n;
+	clrscr();
+	printf("Please input the order of the matrix:\n");/*  */
+	scanf("%d",&n);
+	printf("Please input the elements of the matrix,\n from a[0][0] to a[%d][%d]:\n",n-1,n-1);

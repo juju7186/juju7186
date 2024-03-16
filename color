@@ -1,0 +1,7 @@
+      t.color('sienna')
+      t.pensize(branch / 10)
+    t.forward(branch)
+    a = 1.5 * random.random()
+    t.right(20 * a)
+    b = 1.5 * random.random()
+    Tree(branch - 10 * b, t)

@@ -1,0 +1,6 @@
+    t.left(40 * a)
+    Tree(branch - 10 * b, t)
+    t.right(20 * a)
+    t.up()
+    t.backward(branch)
+    t.down()

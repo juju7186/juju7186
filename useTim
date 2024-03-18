@@ -1,0 +1,6 @@
+          a++;
+        }
+        long useTime = System.currentTimeMillis()-start;
+        System.out.println("useTime:"+useTime);
+
+    }

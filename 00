@@ -1,0 +1,7 @@
+ulimit -Hn
+ulimit -Sn
+ulimit -Hu
+ulimit -Su
+vm.max_map_count=262144
+cluster.initial_master_nodes: ["node-1"]
+network.host: 0.0.0.0

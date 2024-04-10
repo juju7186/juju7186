@@ -1,0 +1,4 @@
+    public User(String username, Integer age) {
+        this.username = username;
+        this.age = age;
+    }
